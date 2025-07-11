@@ -611,10 +611,10 @@ logo ="""\033[1;37mWELCOME TO JAN x JAN COMMAND
  | \  / |  \| |  /  \   
  | |\/| | . ` | / /\ \  
  | |  | | |\  |/ ____ \ 
- |_|  |_|_| \_/_/    \_                                                                     |
-           •••••••••••••••••••••••••••••••••••••••
-\033[1;94m • 𝘼𝘿𝙈𝙄𝙉𝙎   ZOYA x MUSKAN x SAIRA      •  
-\033[1;94m •••••••••••••••••••••••••••••••••••••••
+ |_|  |_|_| \_/_/    \_                                                                     
+ •••••••••••••••••••••••••••••••••••••••••••••
+\033[1;94m • 𝘼𝘿𝙈𝙄𝙉𝙎   ZOYA x MUSKAN x SAIRA •    
+\033[1;94m ••••••••••••••••••••••••••••••••••
 
 \033[1;94m••••••••••••••••••••••••••••••••••
 \033[1;94m  • 𝘼𝙐𝙏𝙃𝙀𝙍    JAN x JAN          •
@@ -654,16 +654,16 @@ def main():
 			time.sleep(2.0)
 			os.system("clear")
 	print(logo)
-	print(" \033[1;39m [1]FACEBOOK POLL VOTING WITH CODE")
-	print(" \033[1;39m [2]POSTS, VIDEOS, STORIES, LIKE VOTING")
-	print(" \033[1;39m [3]FACEBOOK REELS LIKE VOTING")
-	print(" \033[1;39m [4]COMMENT LIKE VOTING")
-	print(" \033[1;39m [5]COMMENT VOTING")
-	print(" \033[1;39m [6]CREATE PAGES")
-	print(" \033[1;39m [7]FACEBOOK FOLLOWERS")
-	print(" \033[1;39m [8]JOIN GROUPS")
-	print(" \033[1;39m [9]PROFILE CHANGE ")
-	print(" \033[1;39m [10]COVER CHANGE")
+	print(" \033[1;96m [1]FACEBOOK POLL VOTING WITH CODE")
+	print(" \033[1;96m [2]POSTS, VIDEOS, STORIES, LIKE VOTING")
+	print(" \033[1;96m [3]FACEBOOK REELS LIKE VOTING")
+	print(" \033[1;96m [4]COMMENT LIKE VOTING")
+	print(" \033[1;96m [5]COMMENT VOTING")
+	print(" \033[1;96m [6]CREATE PAGES")
+	print(" \033[1;96m [7]FACEBOOK FOLLOWERS")
+	print(" \033[1;96m [8]JOIN GROUPS")
+	print(" \033[1;96m [9]PROFILE CHANGE ")
+	print(" \033[1;96m [10]COVER CHANGE")
 	linex()
 	ch = input(f'\33[38;5;160m[\033[1;97m🩶\33[38;5;160m] \033[1;97mSELECT \33[38;5;160m▶ \033[1;97m')
 	if ch in ('1','01'):
