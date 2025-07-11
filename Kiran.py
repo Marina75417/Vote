@@ -633,8 +633,8 @@ def main():
 	print("")
 	print("\033[1;37m     YOUR TOKEN IS NOT APPROVED ALLREADY")
 	print("")
-	print(" \033[1;39m━▷\033[1;32m [1] COPY TOKEN AND SEND ADMINS FOR APPROVAL")
-	print(" \033[1;39m━▷\033[1;31m [2] Exit")
+	print(" \033[1;94m COPY TOKEN AND SEND ADMINS FOR APPROVAL")
+	print(" \033[1;94m\033[1;31m YOUR TOKEN IS:TF625256373-Jan-625252")
 	
 	baloch = input("\n\033[1;37m  \033[1;35mChoice \033[1;37m━━> \033[1;32m")
 	if baloch in ["", " "]:
